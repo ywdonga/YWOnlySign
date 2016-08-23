@@ -2,6 +2,10 @@
 目前常用的获取UDID的方法就是用第三方OpenUDID
 但是这种方法在卸载了APP之后可能会导致UDID产生变化，给后台造成误导
 
+支持pod
+
+	pod 'YWOnlySign', '~> 1.0.0'
+
 使用方法
 
     NSString *uuid = [YWOnlySign getUUID];
